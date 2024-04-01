@@ -106,14 +106,13 @@ footer {
 .dropdown:hover .dropbtn {
     background-color: #555;
 }
-body {
-    font-family: Arial, sans-serif;
+.arrow {
+    margin-left: 5px;
+    font-size: 12px;
 }
-
-
 @media only screen and (max-width: 600px) {
-
     body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 100%;
+        background-image: url(asset/hp.jpeg);
     }
 }

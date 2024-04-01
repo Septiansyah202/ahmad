@@ -1,10 +1,8 @@
 /* Reset style */
-header {
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2520wallpaper%2F&psig=AOvVaw1LU4STJT2I-3uN4u4VfGX_&ust=1712034691749000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCL6YmgoIUDFQAAAAAdAAAAABAE');
+body {
+    background-image: url(asset/nature.jpg);
     background-size: cover; /* agar gambar mencakup seluruh area header */
     
-    padding: 20px;
-    text-align: center;
 }
 * {
     margin: 0;
@@ -14,14 +12,17 @@ header {
 
 /* Styling header */
 header {
-    background-color: #333;
+    
     color: white;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
@@ -40,15 +41,17 @@ nav ul li a:hover {
 
 /* Styling banner */
 #banner {
-    background-color: #f0f0f0;
+    
     padding: 50px;
     text-align: center;
+    color: white;
 }
 
 /* Styling about section */
 #about {
     padding: 50px;
-    background-color: #eaeaea;
+    text-align: center;
+    color: white;
 }
 
 /* Styling programs section */
@@ -58,6 +61,8 @@ nav ul li a:hover {
 
 #programs ul {
     list-style-type: none;
+    text-align: center;
+    color: white;
 }
 
 /* Styling footer */
